@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    #topnavv{
+        width: auto;
+        margin-left: 0.5rem;
+       position: absolute;
+        
+    }
+    #searchspace{
+        width: 50%;
+        
+    }
+
+    #menubutton{
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}

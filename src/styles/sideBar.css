@@ -1,0 +1,54 @@
+/* Base styles for the menu items */
+#menubar {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+
+#menubar:hover {
+    background-color: #07580e; 
+    color: white; 
+}
+
+
+  
+
+#menubar:hover .h-6 {
+    color: white; 
+}
+
+
+
+.menu-icon {
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+
+#dash-menu {
+    padding-left: 0;
+}
+
+
+@media (max-width: 768px) {
+    #dash-menu {
+        width: 50%; 
+        height: 80vh; 
+        padding: 0; 
+        margin-top: 95px; 
+        margin-left: 0;
+        border-radius: 0px ;
+        backdrop-filter: blur(50px); 
+        -webkit-backdrop-filter: blur(10px);
+    }
+    
+    #menubar {
+        padding: 10px 0; 
+    }
+
+    #menu-top{
+        border-radius: 0px;
+    }
+}

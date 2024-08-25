@@ -1,0 +1,9 @@
+.reg-main{
+    background-image: url(../assets/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.placeholder-bold::placeholder {
+    font-weight: bold;
+}

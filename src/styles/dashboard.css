@@ -1,0 +1,68 @@
+.dash-main{
+    background-image: url(../assets/bluryBacground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1%;
+    
+}
+
+#dash-inner{
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(98, 102, 102, 0.418);
+}
+
+#dashbody{
+   
+    margin-left: -1rem;
+}
+
+@media (max-width: 768px) {
+    .dash-main{
+        background-image: url(../assets/bluryBacground.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        /* border: solid 3pt red; */
+        width: 100%;
+        height: 100%;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+       
+    }
+
+    #dashbody{
+        /* border: solid 2pt red; */
+        margin-left: -1rem;
+        overflow-y: scroll;
+        height: fit-content;
+        margin-top: 5rem;
+    }
+    
+
+    .dash-inner{
+        padding: 0%;
+        width: 100%;
+        /* border: solid 3pt rgb(0, 255, 76); */
+        
+    }
+
+    #outerbox{
+        /* border: solid 1pt red; */
+        width: 98%;
+        height: max-content;
+        margin-left: 0.5rem;
+        padding: 1rem;
+      
+    }
+
+    #box1t{
+        height: 200px;
+    }
+
+    #dashtop{
+        /* border: solid 1pt blue; */
+        width: 100vw;
+        overflow-y: scroll;
+    }
+}
